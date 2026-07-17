@@ -5,7 +5,7 @@
   --color-surface: #ebddc5;
   --color-text: #201e1d;
   --color-accent: #c67139;
-  --color-accent-2: #7a8a5e;
+  --color-accent-2: #c99a3f;
   --color-divider: color-mix(in srgb, #201e1d 16%, transparent);
 
   --color-accent-100: #fff2eb;
@@ -14,11 +14,11 @@
   --color-accent-700: #8c491a;
   --color-accent-800: #643312;
 
-  --color-accent-2-100: #f0fae1;
-  --color-accent-2-200: #e1eecc;
-  --color-accent-2-500: #8fa073;
-  --color-accent-2-700: #56633f;
-  --color-accent-2-800: #3d472b;
+  --color-accent-2-100: #faf0d5;
+  --color-accent-2-200: #f2ddab;
+  --color-accent-2-500: #d1a94f;
+  --color-accent-2-700: #8f6b1f;
+  --color-accent-2-800: #5f4714;
 
   --font-heading: "Caprasimo", system-ui, sans-serif;
   --font-body: "Figtree", system-ui, sans-serif;
@@ -89,7 +89,7 @@ figure { margin: 0; }
 @media (min-width: 1272px) {
   .nav { padding-inline: calc((100% - 1200px) / 2 + var(--edge)); }
 }
-.nav-brand { font-family: var(--font-heading); font-size: 30px; margin-right: auto; }
+.nav-brand { font-family: var(--font-heading); font-size: 30px !important; margin-right: auto; }
 .smm-link { color: inherit; text-decoration: none; }
 .nav a { font-size: 14px; }
 .nav a:hover, .nav a[aria-current='page'] { color: var(--color-accent); }
