@@ -21,15 +21,24 @@
 
 <div class="wrap">
 
-  <section style="position:relative;padding:calc(3.5 * var(--leading)) 0 calc(2 * var(--leading))">
+  <section class="split top" style="position:relative;padding:calc(3.5 * var(--leading)) 0 calc(2 * var(--leading))">
     <div style="position:absolute;right:-160px;top:-140px;width:380px;height:380px;border-radius:50%;background:var(--color-accent-2-200);pointer-events:none;z-index:-1"></div>
-    <span class="eyebrow">Identity Coach</span>
-    <h1 style="font-size:clamp(40px, 5.8vw, 72px);line-height:clamp(43px, 6.26vw, 78px);margin:0;max-width:16ch">Your worth was never something to earn.</h1>
-    <p style="font-size:18px;line-height:var(--leading);max-width:58ch;margin:calc(1.2 * var(--leading)) 0 0;color:color-mix(in srgb, var(--color-text) 85%, transparent)">You don't need one more achievement to finally feel like enough. The Small Moments Method is a gentle, four-week 1:1 journey to help you feel your worth from the inside, in the small, ordinary moments of everyday life, not just the big wins.</p>
-    <div style="display:flex;gap:var(--space-3);flex-wrap:wrap;margin-top:var(--leading)">
-      <a href="contact.html" class="btn btn-primary smm-link">Book a Discovery Call</a>
-      <a href="program.html" class="btn btn-secondary smm-link">Explore the Program</a>
+    <div class="col-text" style="flex:3 1 380px">
+      <span class="eyebrow">Identity Coach</span>
+      <h1 style="font-size:clamp(36px, 5vw, 60px);line-height:1.15;margin:0 0 var(--space-3);max-width:16ch">Your worth was never something to earn.</h1>
+      <p style="font-family:var(--font-heading);font-weight:400;font-size:20px;color:var(--color-accent-700);margin:0 0 var(--leading);max-width:34ch">You've achieved so much. Why doesn't it feel like enough?</p>
+      <div style="font-size:16px;line-height:var(--leading);color:color-mix(in srgb, var(--color-text) 85%, transparent);display:flex;flex-direction:column;gap:var(--space-3);max-width:58ch">
+        <p style="margin:0">From the outside, you have it together — capable, dependable, always showing up. But quietly, there's a voice that says you're still not doing enough. You reach the goal you were sure would settle it, and the bar just moves again.</p>
+        <p style="margin:0">You're harder on yourself than you'd ever be with someone you love. If that feels familiar, know this: there's nothing wrong with you. You were just taught to look for your worth in the wrong place.</p>
+        <p style="margin:0">Worth was never something to earn. It's not in the big wins — it's felt in the small, ordinary moments. The quiet morning. The kind word to yourself. Your worth isn't something you achieve. It's something you already are.</p>
+        <p style="margin:0">You don't need one more achievement to finally feel like enough. You just need a place to begin.</p>
+      </div>
+      <div style="display:flex;gap:var(--space-3);flex-wrap:wrap;margin-top:var(--leading)">
+        <a href="contact.html" class="btn btn-primary smm-link">Book a Discovery Call</a>
+        <a href="program.html" class="btn btn-secondary smm-link">Explore the Program</a>
+      </div>
     </div>
+    <figure class="col-photo portrait" style="flex:2 1 260px;align-self:start"><img src="assets/lakshmi-portrait-hero.jpg" alt="Lakshmi Raman" style="width:100%;height:100%;object-fit:cover"></figure>
   </section>
 
   <section class="split" style="padding:calc(2 * var(--leading)) 0">
@@ -72,11 +81,16 @@
     </div>
   </section>
 
-  <section style="padding:calc(2 * var(--leading)) 0">
-    <figure class="panel panel-sage" style="margin:0">
-      <blockquote style="font-family:var(--font-heading);font-weight:400;font-size:clamp(22px, 2.4vw, 28px);line-height:calc(1.5 * var(--leading));max-width:34ch;margin:0">"Lakshmi is an awesome coach. She is very empathetic and always approaches every coaching session with a child-like curiosity. Her patient approach and friendly demeanor put me at ease right away — I always leave every session with insights about myself and a plan to move forward."</blockquote>
-      <figcaption style="font-size:15.5px;line-height:var(--leading);color:color-mix(in srgb, var(--color-text) 75%, transparent);margin:var(--leading) 0 0">— Lavanya, 1:1 coaching client</figcaption>
-    </figure>
+  <section style="padding:calc(2 * var(--leading)) 0" id="testimonials">
+    <span class="eyebrow sage">Client Testimonials</span>
+    <h2 style="font-size:28px;margin:0 0 var(--leading);max-width:36ch">What working together feels like</h2>
+    <div class="grid-testimonials">
+      <figure class="panel panel-sage" style="margin:0">
+        <blockquote style="font-family:var(--font-heading);font-weight:400;font-size:clamp(20px, 2vw, 24px);line-height:calc(1.5 * var(--leading));margin:0">"Lakshmi is an awesome coach. She is very empathetic and always approaches every coaching session with a child-like curiosity. Her patient approach and friendly demeanor put me at ease right away — I always leave every session with insights about myself and a plan to move forward."</blockquote>
+        <figcaption style="font-size:15.5px;line-height:var(--leading);color:color-mix(in srgb, var(--color-text) 75%, transparent);margin:var(--leading) 0 0">— Lavanya, 1:1 coaching client</figcaption>
+      </figure>
+      <!-- Add the next testimonial by copying the <figure class="panel panel-sage"> block above and editing the quote + name. -->
+    </div>
   </section>
 
   <section style="padding:0 0 calc(3 * var(--leading))">
